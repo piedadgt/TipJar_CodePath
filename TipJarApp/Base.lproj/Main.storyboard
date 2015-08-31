@@ -43,61 +43,61 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="zYs-Uo-cl5">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="479.5"/>
                                     </imageView>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-vU-6Xn">
-                                        <rect key="frame" x="18" y="30" width="564" height="295"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-vU-6Xn">
+                                        <rect key="frame" x="18" y="30" width="564" height="402"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tip Jar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21e-da-M4c">
-                                                <rect key="frame" x="205.5" y="0.0" width="153" height="58.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Jar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21e-da-M4c">
+                                                <rect key="frame" x="190.5" y="0.0" width="183.5" height="99.5"/>
                                                 <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="50"/>
                                                 <color key="textColor" red="0.99607843137254903" green="0.98039215686274506" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your total is" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcw-pm-2sM">
-                                                <rect key="frame" x="0.0" y="58" width="105" height="23.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your total is" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcw-pm-2sM">
+                                                <rect key="frame" x="0.0" y="99" width="127" height="40"/>
                                                 <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="20"/>
                                                 <color key="textColor" red="0.99607843137254903" green="0.98039215686274506" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tax percentage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY5-zL-Af4">
-                                                <rect key="frame" x="0.0" y="91.5" width="137" height="23.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax percentage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY5-zL-Af4">
+                                                <rect key="frame" x="0.0" y="149" width="155.5" height="40"/>
                                                 <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="20"/>
                                                 <color key="textColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" misplaced="YES" text="People to split" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfA-oo-4jH">
-                                                <rect key="frame" x="0.0" y="125" width="128.5" height="23.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="People to split" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfA-oo-4jH">
+                                                <rect key="frame" x="0.0" y="199" width="136.5" height="40"/>
                                                 <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="20"/>
                                                 <color key="textColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The service was..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2a-ix-a1F">
-                                                <rect key="frame" x="0.0" y="158.5" width="160.5" height="23.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The service was..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2a-ix-a1F">
+                                                <rect key="frame" x="0.0" y="249" width="170" height="40"/>
                                                 <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="20"/>
                                                 <color key="textColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITJ-v3-8eA">
-                                                <rect key="frame" x="514" y="170.5" width="0.0" height="0.0"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITJ-v3-8eA">
+                                                <rect key="frame" x="514" y="269.5" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" name="GloriaHallelujah" family="Gloria Hallelujah" pointSize="20"/>
                                                 <color key="textColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sA4-Rr-7QW">
-                                                <rect key="frame" x="0.0" y="210" width="564" height="51"/>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sA4-Rr-7QW">
+                                                <rect key="frame" x="0.0" y="317" width="564" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="6Kf-PF-Cxy"/>
                                                 </constraints>
                                                 <segments>
                                                     <segment title="" image="BadIcon"/>
-                                                    <segment title="" image="17E2A17B-4FB0-4BD6-8C18-60DD310ABE5E"/>
-                                                    <segment title="" image="440E7239-462A-4474-83E9-827AA97B3BA9"/>
+                                                    <segment title="" image="F2F320A5-E518-45FB-8F28-4C7FE7377941"/>
+                                                    <segment title="" image="DF227FA3-C776-48A3-98BA-77626124BA9B"/>
                                                     <segment title="" image="GoodIcon"/>
                                                     <segment title="" image="ExcellentIcon"/>
                                                 </segments>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </segmentedControl>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D5u-18-lqJ">
-                                                <rect key="frame" x="464" y="55" width="100" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D5u-18-lqJ">
+                                                <rect key="frame" x="464" y="104.5" width="100" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <color key="tintColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -107,8 +107,8 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cuV-bK-CUl">
-                                                <rect key="frame" x="464" y="122" width="100" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cuV-bK-CUl">
+                                                <rect key="frame" x="464" y="204.5" width="100" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="CJ6-Rt-q2R"/>
@@ -116,8 +116,8 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="okT-cO-BXB">
-                                                <rect key="frame" x="464" y="88.5" width="100" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="okT-cO-BXB">
+                                                <rect key="frame" x="464" y="154.5" width="100" height="30"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="qUN-xi-UBu"/>
@@ -501,92 +501,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="17E2A17B-4FB0-4BD6-8C18-60DD310ABE5E" width="58" height="55">
-            <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGQkNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QDwcI
-ERYbHCUmJygwMzY8P1UkbnVsbNQJCgsMDQ4PEFYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVwc1dOU0Nv
-bG9ygA4SAMAAAIACgAzSEgkTFVpOUy5vYmplY3RzoRSAA4AL0hIJFxqiGBmABIAFgAoQANUdHh8gCSEb
-IiMkVk5TU2l6ZV8QD05TQml0c1BlclNhbXBsZV8QEE5TQ29sb3JTcGFjZU5hbWVZTlNQREZEYXRhgAaA
-B4AIgAlYezU4LCA1NX1fEBlOU0NhbGlicmF0ZWRSR0JDb2xvclNwYWNlTxEQLyVQREYtMS4zCiXE5fLl
-66fzoNDExgo0IDAgb2JqCjw8IC9MZW5ndGggNSAwIFIgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3Ry
-ZWFtCngBpZK9TgQxDIT7PMXUSBcSO7/1dXToCh7gJHRId0joCl6fcbSbXQkKBNrCE2fWcb74A8/4wKF1
-aI24QVoZ6jrUQXrBdWwv8rLzvjzgHYJPBF/w5h6P94jjiaveS6gtmWpBuwhVE83SE05HnhcR+B0iRU44
-89jiY9eckcVrq9HdkFg19zZTyAUp+lY18K/C/nwPKoqzrWL2XTWl7bcAyV7M4gI9MfoqVfI4ebpp2sqE
-rf50L/3MBt2aOOMyk2vX5Hciz4in/R0rtNgdA5QG7RRX87n/klefrRzpJa/SkjqueEPtvvWc1HSKvLtF
-8TGkXKcXtm8VGOkQX2rktmVlup3pUUF2VVevnbb0MGjMfsZgjKHAGIrzfRsK99NQ3Pk+PLsZH75CIyBG
-TYzMj3jB6/dRdTa0vx5VnQ3qAszw6QbMUY/rWlyBTS/RjAoDmK4QLLsBG5rAHHPzGabXTtsBW/UNfwEm
-C7C0AGMcoJjfgH0BvxfHGgplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKMzcyCmVuZG9iagoyIDAgb2Jq
-Cjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMyAwIFIgL1Jlc291cmNlcyA2IDAgUiAvQ29udGVudHMgNCAw
-IFIgL01lZGlhQm94IFswIDAgNTggNTVdCj4+CmVuZG9iago2IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BE
-RiBdIC9Db2xvclNwYWNlIDw8IC9DczEgNyAwIFIgPj4gPj4KZW5kb2JqCjggMCBvYmoKPDwgL0xlbmd0
-aCA5IDAgUiAvTiAzIC9BbHRlcm5hdGUgL0RldmljZVJHQiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+Pgpz
-dHJlYW0KeAGdlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJj
-RRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwS
-E8vE9wIYEAEOWAHA4WZmBEf4RALU/L09mZmoSMaz9u4ugGS72yy/UCZz1v9/kSI3QyQGAApF1TY8fiYX
-5QKUU7PFGTL/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl
-4GejfAdlvVRJmgDl9yjT0/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJ
-YqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T
-/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE/vIADyBQC03pzzHoZsXpLE4gwn
-C4vs7GxzAZ9rLivoN/ufgm/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k/fcQ/+PAOWnN
-ycMsnJ/AF/GF6FVR6JQJhIlou4U8gViQLmQKhH/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMk
-bj96An3rWxAxCsi+vGitka9zjzJ6/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4w
-AixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBH
-QAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6
-CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG/AALIVfwpMI
-QMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWY
-Y5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4E
-tw/XjLuA68MN4SbxeLwq3hTvgg/Bc/BifCG+Cn8cfx7fjx/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI/YQR
-wjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSf
-IF8lD5I/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl/OX48mtk6uRa5Xr
-l3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGS
-txJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4
-M1IZpYyTjLuMj/M05rnP48/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq
-+9Uuq43Pp893ns+dXzT/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoL
-tQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9f
-r1HvoT5Rn62fpL9Hv1t/ysDQINpgi0GbwaihiqG/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImd
-SZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m/krCz2LWIudFt0WXyztLFMt
-6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr/tfTuaXbDdFrtOu8/2DvYi+yb7MQc9
-h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF/AX1C0YctFx4bgccpEuZC6M
-X3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+
-Oj6JPo0+E752vqt9L/hh/QL9dvrd89fw5/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9Jf
-JFzUFgJC/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdN
-RXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoe
-Gx8d3xD/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1
-sl/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M
-9UiMJJslg1kLs2qy3mdHZZ/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752/ob8wTXuaw6thdauXNu5Tndd
-wbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe
-0fViy+KK4k8l3JLr31l9V/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZh
-W3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17/fbX/TAY0DxQc+HhQcvH/I91BrrUFt
-xWHc4azDz+ui6rq/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv/eD1Q3sTq+lQM6O5
-+AQ4ITnx4sf4H++eDDzZeYp9qukn/Z/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0/m/989Iz2mZqz
-ymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX29
-7Yb9jdYeu56WX+x+aem172296XCz/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57/17cPel93v3R
-B6kPXj/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy//lfmvT8MFz6nPK0a0RupH
-rUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76an
-it6rvj/2gf2h+2P0x5Hp7E/4T5WfjT93fAn88ngmbWbm3/eE8/sKZW5kc3RyZWFtCmVuZG9iago5IDAg
-b2JqCjI2MTIKZW5kb2JqCjcgMCBvYmoKWyAvSUNDQmFzZWQgOCAwIFIgXQplbmRvYmoKMyAwIG9iago8
-PCAvVHlwZSAvUGFnZXMgL01lZGlhQm94IFswIDAgNTggNTVdIC9Db3VudCAxIC9LaWRzIFsgMiAwIFIg
-XSA+PgplbmRvYmoKMTAgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDMgMCBSID4+CmVuZG9i
-agoxMSAwIG9iagooTWFjIE9TIFggMTAuMTAuMyBRdWFydHogUERGQ29udGV4dCkKZW5kb2JqCjEyIDAg
-b2JqCihEOjIwMTUwNTA4MTk0MDA5WjAwJzAwJykKZW5kb2JqCjEgMCBvYmoKPDwgL1Byb2R1Y2VyIDEx
-IDAgUiAvQ3JlYXRpb25EYXRlIDEyIDAgUiAvTW9kRGF0ZSAxMiAwIFIgPj4KZW5kb2JqCnhyZWYKMCAx
-MwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDM2NTEgMDAwMDAgbiAKMDAwMDAwMDQ4NyAwMDAwMCBu
-IAowMDAwMDAzNDI1IDAwMDAwIG4gCjAwMDAwMDAwMjIgMDAwMDAgbiAKMDAwMDAwMDQ2OCAwMDAwMCBu
-IAowMDAwMDAwNTg5IDAwMDAwIG4gCjAwMDAwMDMzOTAgMDAwMDAgbiAKMDAwMDAwMDY1NyAwMDAwMCBu
-IAowMDAwMDAzMzcwIDAwMDAwIG4gCjAwMDAwMDM1MDYgMDAwMDAgbiAKMDAwMDAwMzU1NiAwMDAwMCBu
-IAowMDAwMDAzNjA5IDAwMDAwIG4gCnRyYWlsZXIKPDwgL1NpemUgMTMgL1Jvb3QgMTAgMCBSIC9JbmZv
-IDEgMCBSIC9JRCBbIDwxZWNiYzJjZDgzNWRhNmI4YmI5YTcxMWMwMGQ0MWMyYj4KPDFlY2JjMmNkODM1
-ZGE2YjhiYjlhNzExYzAwZDQxYzJiPiBdID4+CnN0YXJ0eHJlZgozNzI2CiUlRU9GCtIpKissWiRjbGFz
-c25hbWVYJGNsYXNzZXNdTlNQREZJbWFnZVJlcKMtLi9dTlNQREZJbWFnZVJlcFpOU0ltYWdlUmVwWE5T
-T2JqZWN00ikqMTJXTlNBcnJheaIxL9IpKjQ1Xk5TTXV0YWJsZUFycmF5ozQxL9M3OAk5OjtXTlNXaGl0
-ZVxOU0NvbG9yU3BhY2VEMCAwABADgA3SKSo9PldOU0NvbG9yoj0v0ikqQEFXTlNJbWFnZaJAL18QD05T
-S2V5ZWRBcmNoaXZlctFERVRyb290gAEACAARABoAIwAtADIANwBJAE8AWABfAGwAcwB7AH0AggCEAIYA
-iwCWAJgAmgCcAKEApACmAKgAqgCsALcAvgDQAOMA7QDvAPEA8wD1AP4BGhFNEVIRXRFmEXQReBGGEZER
-mhGfEacRqhGvEb4RwhHJEdER3hHjEeUR5xHsEfQR9xH8EgQSBxIZEhwSIQAAAAAAAAIBAAAAAAAAAEYA
-AAAAAAAAAAAAAAAAABIjA
-</mutableData>
-        </image>
-        <image name="440E7239-462A-4474-83E9-827AA97B3BA9" width="58" height="55">
+        <image name="BG" width="320" height="454"/>
+        <image name="BadIcon" width="58" height="55"/>
+        <image name="CalculateButton" width="142" height="45"/>
+        <image name="DF227FA3-C776-48A3-98BA-77626124BA9B" width="58" height="55">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGQkNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QDwcI
 ERYbHCUmJygwMzY8P1UkbnVsbNQJCgsMDQ4PEFYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVwc1dOU0Nv
@@ -671,10 +589,92 @@ IwAtADIANwBJAE8AWABfAGwAcwB7AH0AggCEAIYAiwCWAJgAmgCcAKEApACmAKgAqgCsALcAvgDQAOMA
 FRIaEiISJRI3EjoSPwAAAAAAAAIBAAAAAAAAAEYAAAAAAAAAAAAAAAAAABJBA
 </mutableData>
         </image>
-        <image name="BG" width="320" height="454"/>
-        <image name="BadIcon" width="58" height="55"/>
-        <image name="CalculateButton" width="142" height="45"/>
         <image name="ExcellentIcon" width="58" height="55"/>
+        <image name="F2F320A5-E518-45FB-8F28-4C7FE7377941" width="58" height="55">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGQkNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QDwcI
+ERYbHCUmJygwMzY8P1UkbnVsbNQJCgsMDQ4PEFYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVwc1dOU0Nv
+bG9ygA4SAMAAAIACgAzSEgkTFVpOUy5vYmplY3RzoRSAA4AL0hIJFxqiGBmABIAFgAoQANUdHh8gCSEb
+IiMkVk5TU2l6ZV8QD05TQml0c1BlclNhbXBsZV8QEE5TQ29sb3JTcGFjZU5hbWVZTlNQREZEYXRhgAaA
+B4AIgAlYezU4LCA1NX1fEBlOU0NhbGlicmF0ZWRSR0JDb2xvclNwYWNlTxEQLyVQREYtMS4zCiXE5fLl
+66fzoNDExgo0IDAgb2JqCjw8IC9MZW5ndGggNSAwIFIgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3Ry
+ZWFtCngBpZK9TgQxDIT7PMXUSBcSO7/1dXToCh7gJHRId0joCl6fcbSbXQkKBNrCE2fWcb74A8/4wKF1
+aI24QVoZ6jrUQXrBdWwv8rLzvjzgHYJPBF/w5h6P94jjiaveS6gtmWpBuwhVE83SE05HnhcR+B0iRU44
+89jiY9eckcVrq9HdkFg19zZTyAUp+lY18K/C/nwPKoqzrWL2XTWl7bcAyV7M4gI9MfoqVfI4ebpp2sqE
+rf50L/3MBt2aOOMyk2vX5Hciz4in/R0rtNgdA5QG7RRX87n/klefrRzpJa/SkjqueEPtvvWc1HSKvLtF
+8TGkXKcXtm8VGOkQX2rktmVlup3pUUF2VVevnbb0MGjMfsZgjKHAGIrzfRsK99NQ3Pk+PLsZH75CIyBG
+TYzMj3jB6/dRdTa0vx5VnQ3qAszw6QbMUY/rWlyBTS/RjAoDmK4QLLsBG5rAHHPzGabXTtsBW/UNfwEm
+C7C0AGMcoJjfgH0BvxfHGgplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKMzcyCmVuZG9iagoyIDAgb2Jq
+Cjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMyAwIFIgL1Jlc291cmNlcyA2IDAgUiAvQ29udGVudHMgNCAw
+IFIgL01lZGlhQm94IFswIDAgNTggNTVdCj4+CmVuZG9iago2IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BE
+RiBdIC9Db2xvclNwYWNlIDw8IC9DczEgNyAwIFIgPj4gPj4KZW5kb2JqCjggMCBvYmoKPDwgL0xlbmd0
+aCA5IDAgUiAvTiAzIC9BbHRlcm5hdGUgL0RldmljZVJHQiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+Pgpz
+dHJlYW0KeAGdlndUU9kWh8+9N73QEiIgJfQaegkg0jtIFQRRiUmAUAKGhCZ2RAVGFBEpVmRUwAFHhyJj
+RRQLg4Ji1wnyEFDGwVFEReXdjGsJ7601896a/cdZ39nnt9fZZ+9917oAUPyCBMJ0WAGANKFYFO7rwVwS
+E8vE9wIYEAEOWAHA4WZmBEf4RALU/L09mZmoSMaz9u4ugGS72yy/UCZz1v9/kSI3QyQGAApF1TY8fiYX
+5QKUU7PFGTL/BMr0lSkyhjEyFqEJoqwi48SvbPan5iu7yZiXJuShGlnOGbw0noy7UN6aJeGjjAShXJgl
+4GejfAdlvVRJmgDl9yjT0/icTAAwFJlfzOcmoWyJMkUUGe6J8gIACJTEObxyDov5OWieAHimZ+SKBIlJ
+YqYR15hp5ejIZvrxs1P5YjErlMNN4Yh4TM/0tAyOMBeAr2+WRQElWW2ZaJHtrRzt7VnW5mj5v9nfHn5T
+/T3IevtV8Sbsz55BjJ5Z32zsrC+9FgD2JFqbHbO+lVUAtG0GQOXhrE/vIADyBQC03pzzHoZsXpLE4gwn
+C4vs7GxzAZ9rLivoN/ufgm/Kv4Y595nL7vtWO6YXP4EjSRUzZUXlpqemS0TMzAwOl89k/fcQ/+PAOWnN
+ycMsnJ/AF/GF6FVR6JQJhIlou4U8gViQLmQKhH/V4X8YNicHGX6daxRodV8AfYU5ULhJB8hvPQBDIwMk
+bj96An3rWxAxCsi+vGitka9zjzJ6/uf6Hwtcim7hTEEiU+b2DI9kciWiLBmj34RswQISkAd0oAo0gS4w
+AixgDRyAM3AD3iAAhIBIEAOWAy5IAmlABLJBPtgACkEx2AF2g2pwANSBetAEToI2cAZcBFfADXALDIBH
+QAqGwUswAd6BaQiC8BAVokGqkBakD5lC1hAbWgh5Q0FQOBQDxUOJkBCSQPnQJqgYKoOqoUNQPfQjdBq6
+CF2D+qAH0CA0Bv0BfYQRmALTYQ3YALaA2bA7HAhHwsvgRHgVnAcXwNvhSrgWPg63whfhG/AALIVfwpMI
+QMgIA9FGWAgb8URCkFgkAREha5EipAKpRZqQDqQbuY1IkXHkAwaHoWGYGBbGGeOHWYzhYlZh1mJKMNWY
+Y5hWTBfmNmYQM4H5gqVi1bGmWCesP3YJNhGbjS3EVmCPYFuwl7ED2GHsOxwOx8AZ4hxwfrgYXDJuNa4E
+tw/XjLuA68MN4SbxeLwq3hTvgg/Bc/BifCG+Cn8cfx7fjx/GvyeQCVoEa4IPIZYgJGwkVBAaCOcI/YQR
+wjRRgahPdCKGEHnEXGIpsY7YQbxJHCZOkxRJhiQXUiQpmbSBVElqIl0mPSa9IZPJOmRHchhZQF5PriSf
+IF8lD5I/UJQoJhRPShxFQtlOOUq5QHlAeUOlUg2obtRYqpi6nVpPvUR9Sn0vR5Mzl/OX48mtk6uRa5Xr
+l3slT5TXl3eXXy6fJ18hf0r+pvy4AlHBQMFTgaOwVqFG4bTCPYVJRZqilWKIYppiiWKD4jXFUSW8koGS
+txJPqUDpsNIlpSEaQtOledK4tE20Otpl2jAdRzek+9OT6cX0H+i99AllJWVb5SjlHOUa5bPKUgbCMGD4
+M1IZpYyTjLuMj/M05rnP48/bNq9pXv+8KZX5Km4qfJUilWaVAZWPqkxVb9UU1Z2qbapP1DBqJmphatlq
++9Uuq43Pp893ns+dXzT/5PyH6rC6iXq4+mr1w+o96pMamhq+GhkaVRqXNMY1GZpumsma5ZrnNMe0aFoL
+tQRa5VrntV4wlZnuzFRmJbOLOaGtru2nLdE+pN2rPa1jqLNYZ6NOs84TXZIuWzdBt1y3U3dCT0svWC9f
+r1HvoT5Rn62fpL9Hv1t/ysDQINpgi0GbwaihiqG/YZ5ho+FjI6qRq9Eqo1qjO8Y4Y7ZxivE+41smsImd
+SZJJjclNU9jU3lRgus+0zwxr5mgmNKs1u8eisNxZWaxG1qA5wzzIfKN5m/krCz2LWIudFt0WXyztLFMt
+6ywfWSlZBVhttOqw+sPaxJprXWN9x4Zq42Ozzqbd5rWtqS3fdr/tfTuaXbDdFrtOu8/2DvYi+yb7MQc9
+h3iHvQ732HR2KLuEfdUR6+jhuM7xjOMHJ3snsdNJp9+dWc4pzg3OowsMF/AX1C0YctFx4bgccpEuZC6M
+X3hwodRV25XjWuv6zE3Xjed2xG3E3dg92f24+ysPSw+RR4vHlKeT5xrPC16Il69XkVevt5L3Yu9q76c+
+Oj6JPo0+E752vqt9L/hh/QL9dvrd89fw5/rX+08EOASsCegKpARGBFYHPgsyCRIFdQTDwQHBu4IfL9Jf
+JFzUFgJC/EN2hTwJNQxdFfpzGC4sNKwm7Hm4VXh+eHcELWJFREPEu0iPyNLIR4uNFksWd0bJR8VF1UdN
+RXtFl0VLl1gsWbPkRoxajCCmPRYfGxV7JHZyqffS3UuH4+ziCuPuLjNclrPs2nK15anLz66QX8FZcSoe
+Gx8d3xD/iRPCqeVMrvRfuXflBNeTu4f7kufGK+eN8V34ZfyRBJeEsoTRRJfEXYljSa5JFUnjAk9BteB1
+sl/ygeSplJCUoykzqdGpzWmEtPi000IlYYqwK10zPSe9L8M0ozBDuspp1e5VE6JA0ZFMKHNZZruYjv5M
+9UiMJJslg1kLs2qy3mdHZZ/KUcwR5vTkmuRuyx3J88n7fjVmNXd1Z752/ob8wTXuaw6thdauXNu5Tndd
+wbrh9b7rj20gbUjZ8MtGy41lG99uit7UUaBRsL5gaLPv5sZCuUJR4b0tzlsObMVsFWzt3WazrWrblyJe
+0fViy+KK4k8l3JLr31l9V/ndzPaE7b2l9qX7d+B2CHfc3em681iZYlle2dCu4F2t5czyovK3u1fsvlZh
+W3FgD2mPZI+0MqiyvUqvakfVp+qk6oEaj5rmvep7t+2d2sfb17/fbX/TAY0DxQc+HhQcvH/I91BrrUFt
+xWHc4azDz+ui6rq/Z39ff0TtSPGRz0eFR6XHwo911TvU1zeoN5Q2wo2SxrHjccdv/eD1Q3sTq+lQM6O5
++AQ4ITnx4sf4H++eDDzZeYp9qukn/Z/2ttBailqh1tzWibakNml7THvf6YDTnR3OHS0/m/989Iz2mZqz
+ymdLz5HOFZybOZ93fvJCxoXxi4kXhzpXdD66tOTSna6wrt7LgZevXvG5cqnbvfv8VZerZ645XTt9nX29
+7Yb9jdYeu56WX+x+aem172296XCz/ZbjrY6+BX3n+l37L972un3ljv+dGwOLBvruLr57/17cPel93v3R
+B6kPXj/Mejj9aP1j7OOiJwpPKp6qP6391fjXZqm99Oyg12DPs4hnj4a4Qy//lfmvT8MFz6nPK0a0RupH
+rUfPjPmM3Xqx9MXwy4yX0+OFvyn+tveV0auffnf7vWdiycTwa9HrmT9K3qi+OfrW9m3nZOjk03dp76an
+it6rvj/2gf2h+2P0x5Hp7E/4T5WfjT93fAn88ngmbWbm3/eE8/sKZW5kc3RyZWFtCmVuZG9iago5IDAg
+b2JqCjI2MTIKZW5kb2JqCjcgMCBvYmoKWyAvSUNDQmFzZWQgOCAwIFIgXQplbmRvYmoKMyAwIG9iago8
+PCAvVHlwZSAvUGFnZXMgL01lZGlhQm94IFswIDAgNTggNTVdIC9Db3VudCAxIC9LaWRzIFsgMiAwIFIg
+XSA+PgplbmRvYmoKMTAgMCBvYmoKPDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDMgMCBSID4+CmVuZG9i
+agoxMSAwIG9iagooTWFjIE9TIFggMTAuMTAuMyBRdWFydHogUERGQ29udGV4dCkKZW5kb2JqCjEyIDAg
+b2JqCihEOjIwMTUwNTA4MTk0MDA5WjAwJzAwJykKZW5kb2JqCjEgMCBvYmoKPDwgL1Byb2R1Y2VyIDEx
+IDAgUiAvQ3JlYXRpb25EYXRlIDEyIDAgUiAvTW9kRGF0ZSAxMiAwIFIgPj4KZW5kb2JqCnhyZWYKMCAx
+MwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDM2NTEgMDAwMDAgbiAKMDAwMDAwMDQ4NyAwMDAwMCBu
+IAowMDAwMDAzNDI1IDAwMDAwIG4gCjAwMDAwMDAwMjIgMDAwMDAgbiAKMDAwMDAwMDQ2OCAwMDAwMCBu
+IAowMDAwMDAwNTg5IDAwMDAwIG4gCjAwMDAwMDMzOTAgMDAwMDAgbiAKMDAwMDAwMDY1NyAwMDAwMCBu
+IAowMDAwMDAzMzcwIDAwMDAwIG4gCjAwMDAwMDM1MDYgMDAwMDAgbiAKMDAwMDAwMzU1NiAwMDAwMCBu
+IAowMDAwMDAzNjA5IDAwMDAwIG4gCnRyYWlsZXIKPDwgL1NpemUgMTMgL1Jvb3QgMTAgMCBSIC9JbmZv
+IDEgMCBSIC9JRCBbIDwxZWNiYzJjZDgzNWRhNmI4YmI5YTcxMWMwMGQ0MWMyYj4KPDFlY2JjMmNkODM1
+ZGE2YjhiYjlhNzExYzAwZDQxYzJiPiBdID4+CnN0YXJ0eHJlZgozNzI2CiUlRU9GCtIpKissWiRjbGFz
+c25hbWVYJGNsYXNzZXNdTlNQREZJbWFnZVJlcKMtLi9dTlNQREZJbWFnZVJlcFpOU0ltYWdlUmVwWE5T
+T2JqZWN00ikqMTJXTlNBcnJheaIxL9IpKjQ1Xk5TTXV0YWJsZUFycmF5ozQxL9M3OAk5OjtXTlNXaGl0
+ZVxOU0NvbG9yU3BhY2VEMCAwABADgA3SKSo9PldOU0NvbG9yoj0v0ikqQEFXTlNJbWFnZaJAL18QD05T
+S2V5ZWRBcmNoaXZlctFERVRyb290gAEACAARABoAIwAtADIANwBJAE8AWABfAGwAcwB7AH0AggCEAIYA
+iwCWAJgAmgCcAKEApACmAKgAqgCsALcAvgDQAOMA7QDvAPEA8wD1AP4BGhFNEVIRXRFmEXQReBGGEZER
+mhGfEacRqhGvEb4RwhHJEdER3hHjEeUR5xHsEfQR9xH8EgQSBxIZEhwSIQAAAAAAAAIBAAAAAAAAAEYA
+AAAAAAAAAAAAAAAAABIjA
+</mutableData>
+        </image>
         <image name="GoodIcon" width="58" height="55"/>
         <image name="JarLabel" width="139" height="174"/>
         <image name="SettingsIcon" width="20" height="20"/>

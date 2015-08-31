@@ -199,15 +199,15 @@ class ViewController: UIViewController {
     
     func calcTotal() {
         
-        var tmp = (inputPeopleTextField.text as? NSString)?.doubleValue ?? 1
+        var tmp = (inputPeopleTextField.text as NSString).doubleValue ?? 1
         
         numberOfPeople = tmp == 0 ? 1 : tmp
         
-        var tmpTax = (inputTaxTextField.text as? NSString)?.doubleValue ?? 10
+        var tmpTax = (inputTaxTextField.text as NSString).doubleValue ?? 10
         
         tax = ( tmpTax / 100 ) + 1 // 1.xx
         
-        subTotal = ( (inputBillTextField.text as? NSString)?.doubleValue ?? 0 ) / tax
+        subTotal = ( (inputBillTextField.text as NSString).doubleValue ?? 0 ) / tax
         
         finalTip = self.calcTip() // 1.xx
         
@@ -221,7 +221,7 @@ class ViewController: UIViewController {
         println("Main: calcTotal: finalTip = \(finalTip)")
         
         
-        totalResult = ( (inputBillTextField.text as? NSString)?.doubleValue ?? 0) + (finalTip - 1 ) * subTotal
+        totalResult = ( (inputBillTextField.text as NSString).doubleValue ?? 0) + (finalTip - 1 ) * subTotal
         
         println("Main: calcTotal: totalResult = \(totalResult)")
         
